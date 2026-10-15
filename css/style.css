@@ -46,6 +46,7 @@ body {
 
 .galo{
     border:2px solid; border-color: black;
+    display: block; max-width: 100%; height: auto;
 }
 
 .galo_nome{

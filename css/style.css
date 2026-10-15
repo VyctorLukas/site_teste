@@ -37,7 +37,7 @@ body {
 }
  
 * {
-    box-sizing: border-box; margin: 20;
+    box-sizing: border-box; margin: 20px;
 }
  
 .aside {

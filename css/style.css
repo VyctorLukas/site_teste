@@ -55,12 +55,11 @@ body {
 /* IMAGENS DAS GALINHAS */
 .galo {
     display: block;
-    width: auto;
-    max-width: 100%;
+    width: 100%;
+    max-width: 600px;
     height: auto;
     margin: 0 auto;
     border: 2px solid black;
-    object-fit: contain;
 }
 
 /* Nomes das galinhas */
@@ -224,5 +223,23 @@ body {
     .texto {
         padding: 0 10px;
     }
+
+    @media (max-width: 768px) {
+    .nav_teste {
+        width: 100%;
+        height: auto;
+    }
+
+    .galo {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .rodape {
+        width: 100%;
+    }
+}
 }
 ```
